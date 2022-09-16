@@ -2,7 +2,7 @@
 
 .main {
     background-color: #2F343A;
-    width: 1920px;
+    width: $screen-1920;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -73,7 +73,7 @@
     }
     
     &_container{
-        width: 1920px;
+        width: $screen-1920;
         height: 620px;
         background-image: url(../src/img/main_title__backround/main_body_background.png);
         transform: translateX(-410px);
@@ -124,7 +124,7 @@
     }
 
     &_background{
-        width: 1920px;
+        width: $screen-1920;
         height: 560px;
         position: absolute;
         top:0;

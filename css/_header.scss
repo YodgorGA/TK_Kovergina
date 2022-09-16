@@ -1,5 +1,7 @@
+@import 'letterals';
+
 .header {
-    width: 1920px;
+    width: $screen-1920;
     height: 45px;
     background-color: #C8A35F;
     display: flex;
