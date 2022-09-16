@@ -1,0 +1,287 @@
+@import 'letterals';
+
+.main {
+    background-color: #2F343A;
+    width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &_container{
+        width: 1110px;
+    }
+    &_header {
+        width: 100%;
+        height: 45px;
+        margin: 27px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &-left {
+            .logo_wrapper {
+            }
+            .logo{
+                width: 160px;
+                height: 45px;
+                background-image: url('./../src/img/main_header/logo.svg');
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-right {
+            .navbar {
+                width: 412px;
+                height: 16px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                color:#fff;
+                font-size: 14px;
+                line-height: 114%;
+                letter-spacing: 0.05em;
+                font-weight: 400;
+                &_container {
+                }
+            
+                &_item {
+                }
+
+                a{
+                    color:#fff;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+    &_body{
+
+    }
+
+    &_services {
+    }
+}
+
+.body{
+
+    &_main{
+
+    }
+    
+    &_container{
+        width: 1920px;
+        height: 620px;
+        background-image: url(../src/img/main_title__backround/main_body_background.png);
+        transform: translateX(-410px);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;align-items: center;
+    }
+    &_title-wrapper{
+        width: 920px;
+        height: 245px;
+        border: 1px solid $gold-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &_title{
+        color:#fff;
+        font-family: "Roboto";
+        font-weight: 700;
+        width: 780px;
+        height: 60px;
+        font-size: 64px;
+        line-height: 117%;
+        letter-spacing: 0.05em;
+    }
+    &_subtitle{
+        width: 780px;
+        height: 50px;
+        color:#fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 158%;
+        margin-top: 45px;
+    }
+}
+
+.services {
+    &_main {
+
+    }
+    &_image{
+        margin-top: 166px;
+        margin-left: 75px;
+        width: 466px;
+        height: 266px;
+        background-image: url('../src/img/main_services_content/truck.png');
+    }
+
+    &_background{
+        width: 1920px;
+        height: 560px;
+        position: absolute;
+        top:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transform: translateX(-405px);
+        &__left {
+            width: 755px;
+            height: 560px;
+            background-color:#393f47;
+        }
+        &__right{
+            width: 755px;
+            height: 560px;
+            background-color:#393f47;
+        }
+    }
+
+    &_container {
+        width: 1110px;
+        height: 560px;
+        position: relative;
+    }
+
+    &_content {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 560px;
+        position: relative;
+        z-index: 1;
+
+        &__left{
+            width: 350px;
+        }
+        
+        &__middle{
+            width: 410px;
+            height: 100%;
+        }
+
+        &__right{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 120px;
+        }
+    
+    }
+    &_arrow{
+        &-wrapper{
+            &__top{
+                margin-top: 156px;
+                width: 161px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            &__bottom{
+                margin-bottom: 156px;
+                width: 161px;
+                height: 20px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+.content {
+
+    &_title {
+    }
+
+    &_subtitle {
+    }
+
+    &_button-container {
+    }
+
+    &_button {
+        margin-top: 50px;
+        width: 220px;
+        height: 55px;
+        background-color: $gold-color;
+        color:#fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 158%;
+        letter-spacing: 0.1em;
+        border: none;
+    }
+}
+
+.arrow {
+
+    &_text {
+        width: 75px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 16;
+        line-height: 158%;
+        letter-spacing: 0.1em;
+        justify-content: center;
+        color:$gold-color;
+    }
+
+    &_icon {
+
+        &__right{
+            width: 70px;
+            height: 21px;
+            background-repeat: no-repeat;
+            background-image: url('../src/img/main_services_content/Arrow-right.png');
+        }
+        &__left{
+            width: 70px;
+            height: 21px;
+            background-repeat: no-repeat;
+            background-image: url('../src/img/main_services_content/Arrow-left.png');
+        }
+    }
+}
+
+.chapter{
+    &_container{
+        width: 440px;
+        height: 312px;      
+    }
+    &_divider{
+        width: 90px;
+        height: 6px;
+        margin-top: 120px;
+        background-image: url('../src/img/main_services_content/divider.png');
+    }
+    &_title{
+        width: 400px;
+        height: 85px;
+        margin-top: 40px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 123%;
+        letter-spacing: 0.05em;
+        color:#fff;
+
+    }
+    &_subtitle{
+        width: 400px;
+        height: 45px;
+        font-size: 18px;
+        line-height: 158%;
+        font-weight: 400;
+        margin-top: 30px;
+        color:#fff;
+    }
+}
